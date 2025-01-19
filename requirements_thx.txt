@@ -1,0 +1,6 @@
+click==8.1.8
+mnemonic		>=0.21,	<1
+shamir-mnemonic-slip39	>=0.4.0,<0.5
+eth-account >=0.13.4
+base58 >= 2.1.1
+#hdwallet >= 3.2.3

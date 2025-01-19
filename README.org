@@ -30,6 +30,65 @@ sets of 20 words is difficult, error-prone and time consuming.
 
 #+TOC: headlines 2
 
+* THX version
+  *****************************************************************
+  Note: NOT WORKING -> pip cannot install dependencies on debian 12
+  *****************************************************************
+
+  #+BEGIN_QUOTE
+  Your keys, your Bitcoin.  Not your keys, not your Bitcoin.
+  
+  ---Andreas Antonopoulos
+  #+END_QUOTE
+
+  This [[https://github.com/fructu/python-slip39.thx][python-slip39.thx]] project, it is just to run
+  a portion of it inside of linux debian.
+
+  I just want to have some backup process for [[https://github.com/trezor/python-shamir-mnemonic/][python-shamir-mnemonic]]
+  or iancoleman tools.
+
+  So far I am focus on these
+  	bash slip39_generate.sh
+	bash slip39_recover.sh
+
+
+** install
+  sudo apt-get install build-essential libssl-dev
+
+		pip install eth-account           #<<< only first time
+		pip install pyserial               #<<< only first time
+
+   #+LATEX: {\scriptsize
+   #+BEGIN_SRC bash :exports both :results output drawer
+   python3 -m venv venv
+   source venv/bin/activate
+   pip install -r requirements_thx.txt
+   deactivate
+   #+END_SRC
+
+   #+RESULTS:
+   :results:
+   $
+   :end:
+
+   #+LATEX: }
+
+** use
+
+   #+LATEX: {\scriptsize
+   #+BEGIN_SRC bash :exports both :results output drawer
+
+
+   seven replace great luggage fox rent general tower guess inside smile sing
+   #+END_SRC
+
+   #+RESULTS:
+   :results:
+   
+   :end:
+
+   #+LATEX: }
+
 * Hardware Wallet "Seed" Configuration
 
   #+BEGIN_QUOTE

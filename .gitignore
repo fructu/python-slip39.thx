@@ -30,3 +30,6 @@ private_keys
 images/SLIP-39.iconset
 .coverage*
 /SLIP39-20*.pdf
+
+#thx
+venv/
